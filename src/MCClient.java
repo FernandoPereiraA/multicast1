@@ -24,6 +24,7 @@ public class MCClient {
         NetworkInterface netIf = NetworkInterface.getByName("localhost");
         //Nos unimos al grupo:
   //      s.joinGroup(group);
+        //sdfsd
         
         s.joinGroup(group,netIf);
         //Leemos los paquetes enviados por el servidor multicast:
